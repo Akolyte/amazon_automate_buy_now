@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+soup_contents.txt
 
 # Virtual environments
 .venv
