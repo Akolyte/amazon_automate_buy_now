@@ -1,12 +1,12 @@
 # LinkedIn Job Search Automation
 
-This python script when run will automatically open LinkedIn to a job search based on these criteria:
+This Python script, when run, will automatically open LinkedIn to a job search based on these criteria:
 
 - **Job Title**
 - **Location**
 - **Salary**
 
-This way you can apply for all the listed jobs, cross them out using the LinkedIn UI, and then in another 10 minutes (the default amount of time to wait) the tool will check if there are any more jobs. If there are, chrome will automaticlaly open to the query page, and if not then chrome will remain closed and you can go about your day without having to constantly refresh the page for new jobs.
+This way, you can apply for all the listed jobs, cross them out using the LinkedIn UI, and then in another 10 minutes (the default amount of time to wait), the tool will check if there are any more jobs. If there are, Chrome will automatically open to the query page, and if not, then Chrome will remain closed and you can go about your day without having to constantly refresh the page for new jobs.
 
 ## Prerequisites
 
