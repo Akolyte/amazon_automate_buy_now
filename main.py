@@ -12,6 +12,17 @@ JOB_TITLE = "Machine Learning Engineer"
 NUMBER_OF_SECONDS_TO_WAIT = 600
 LOCATION_ID = "90000070"  # Location ID for "United States"
 SALARY = 120000
+SALARY_LEVELS = {
+    40000: 1,
+    60000: 2,
+    80000: 3,
+    100000: 4,
+    120000: 5,
+    140000: 6,
+    160000: 7,
+    180000: 8,
+    200000: 9,
+}
 
 def main():
     logging.info("Starting job automation script...")
@@ -61,17 +72,7 @@ def encode_spaces(text):
 
 SLEEP_MIN = NUMBER_OF_SECONDS_TO_WAIT - 50
 SLEEP_MAX = NUMBER_OF_SECONDS_TO_WAIT + 50
-SALARY_LEVELS = {
-    40000: 1,
-    60000: 2,
-    80000: 3,
-    100000: 4,
-    120000: 5,
-    140000: 6,
-    160000: 7,
-    180000: 8,
-    200000: 9,
-}
+
 LINKEDIN_URL = f"https://www.linkedin.com/jobs/search/?currentJobId=4180906838&f_SB2={SALARY_LEVELS[SALARY]}&f_TPR=r{NUMBER_OF_SECONDS_TO_WAIT}&geoId={LOCATION_ID}&keywords={encode_spaces(JOB_TITLE)}&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
 
 if __name__ == "__main__":
