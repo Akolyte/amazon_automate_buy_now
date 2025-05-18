@@ -28,6 +28,16 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 uv pip install -r requirements.txt
 ```
 
+## Running Script
+
+To run this script using `uv`, execute the following command in your terminal:
+
+```bash
+uv run main.py
+```
+
+This will start the script with the `uv` runtime, ensuring all dependencies are managed in an isolated environment.
+
 ## Configurable Parameters
 
 The following constants can be configured in `main.py` to customize your job search:
