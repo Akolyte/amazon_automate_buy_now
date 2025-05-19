@@ -1,0 +1,13 @@
+[project]
+name = "linkedin-automated-recently-posted-jobs"
+version = "0.1.0"
+description = "A script that opens chrome every time new jobs are posted based off your query criteria."
+authors = [{ name = "Hojin Ryoo", email = "hryoo2004@gmail.com" }]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

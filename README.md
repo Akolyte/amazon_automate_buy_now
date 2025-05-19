@@ -25,7 +25,7 @@ To install this project using [uv](https://github.com/astral-sh/uv):
 ```bash
 uv venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -r requirements.txt
+uv pip install .
 ```
 
 ## Running Script
